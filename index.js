@@ -28,7 +28,7 @@ let unleashDog = function (dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 }
 
-const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog] // array of functions
 
 function exerciseDog (dogName, dogBreed) {
  return routine.map(fn => fn(dogName, dogBreed))
